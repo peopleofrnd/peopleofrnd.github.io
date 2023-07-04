@@ -11,17 +11,19 @@ body, html {
 }
 
 .dark-mode {
-  background-color: #2d2d2d;
+  background-color: #000;
   color: white;
-
-
 }
 
 .dark {
-  background-color: #2d2d2d;
-  border-color: #2d2d2d;
+  background-color: #000;
+  border-color: #000;
 }
+a {
 
+	font-weight: 400;
+	font-size: 15px;
+}
 
 h2 {
 	font-family: 'Raleway', sans-serif;
@@ -49,10 +51,7 @@ p.intro {
 	margin: 12px 0 0;
 	line-height: 24px;
 }
-a {
 
-	font-weight: 400;
-}
 a:hover, a:focus {
 	text-decoration: none;
 
